@@ -3,13 +3,13 @@ Todo list on React JS
 
 
 ## Login page
-![Login](prevLoginPage.jpg)
+![Login](prevLoginPage.png)
 
 ## Tasks page
-![Tasks](prevTasksPage.jpg)
+![Tasks](prevTasksPage.png)
 
 ## Profile page
-![Profile](prevProfilePage.jpg)
+![Profile](prevProfilePage.png)
 
 ## Getting start
 ```
