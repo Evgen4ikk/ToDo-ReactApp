@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
 import { BsListCheck } from 'react-icons/bs'
-import { HiUserCircle } from 'react-icons/hi';
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../../context/context'
 
@@ -46,7 +45,7 @@ const Navbar = () => {
           className="text-gray-400 focus:outline-none"
           onClick={handleMenuToggle}
         >
-          <HiUserCircle className="h-8 w-8" />
+          <img src="https://sun4-10.userapi.com/impg/ujwvgRL91_C1-FOmvRqFzCCm739I17nlEXn5Vw/Nb2ru4hg2bA.jpg?size=656x656&quality=96&sign=ee91a7582edcd6bc4a308b631a59c9b0&type=album" alt="" className="w-8 h-8 mx-auto rounded-full dark:bg-gray-500 aspect-square"/>
         </button>
         {isMenuOpen && (
           <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-10">

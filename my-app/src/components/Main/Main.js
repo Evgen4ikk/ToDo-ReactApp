@@ -12,6 +12,7 @@ const Main = () => {
 			setIsAuth(true)
 		}
 	},[])
+	
 	return (
 		<AuthContext.Provider value={{
 			isAuth,

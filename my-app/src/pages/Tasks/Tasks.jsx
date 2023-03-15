@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import CreateTask from '../components/Main/item/CreateTask'
-import SortTasks from '../components/Main/item/SortTasks'
-import TaskItem from '../components/Main/item/TaskItem'
+import CreateTask from '../../components/Main/item/CreateTask'
+import SortTasks from '../../components/Main/item/SortTasks'
+import TaskItem from '../../components/Main/item/TaskItem'
 
 
 

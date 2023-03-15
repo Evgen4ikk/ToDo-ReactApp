@@ -12,7 +12,7 @@ const SortTasks = ({ handleSortBy }) => {
     <div className='flex pb-4'>
       <button
         className={`bg-black text-white font-bold py-2 px-4 rounded-l ${
-          activeButton === 'All' ? 'bg-[#2f2d2d]' : ''
+          activeButton === 'All' ? 'bg-[#3c3c3c]' : ''
         }`}
         onClick={() => handleButtonClick('All')}
       >
@@ -20,7 +20,7 @@ const SortTasks = ({ handleSortBy }) => {
       </button>
       <button
         className={`bg-black text-white font-bold py-2 px-4 ${
-          activeButton === 'Completed' ? 'bg-[#2f2d2d]' : ''
+          activeButton === 'Completed' ? 'bg-[#3c3c3c]' : ''
         }`}
         onClick={() => handleButtonClick('Completed')}
       >
@@ -28,7 +28,7 @@ const SortTasks = ({ handleSortBy }) => {
       </button>
       <button
         className={`bg-black text-white font-bold py-2 px-4 rounded-r ${
-          activeButton === 'Not completed' ? 'bg-[#2f2d2d]' : ''
+          activeButton === 'Not completed' ? 'bg-[#3c3c3c]' : ''
         }`}
         onClick={() => handleButtonClick('Not completed')}
       >
